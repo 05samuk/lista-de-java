@@ -7,7 +7,7 @@ public class Main {
         System.out.println("digite quantas milhas voce precisa tranformar");
         number = in.nextInt();
         result = number * 1.609;
-        System.out.println("o resultado das milhas para quilometros será igual à"+ result ) ;
+        System.out.println("o resultado das milhas para quilometros será igual à" + result );
 
 
     }

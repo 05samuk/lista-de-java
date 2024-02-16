@@ -7,7 +7,7 @@ public class Main {
         System.out.println("digite os graus celsius");
         number = in.nextInt();
         result = (number * 1.8) + 32;
-        System.out.println("o resultado dos graus celsius em fahrenheit " + result ) ;
+        System.out.println("o resultado dos graus celsius em fahrenheit 100" + result ) ;
 
     }
 }

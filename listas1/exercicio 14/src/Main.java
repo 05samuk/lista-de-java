@@ -2,13 +2,13 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        double base, altura, area;
         Scanner in = new Scanner(System.in);
-        System.out.println("digite um numero real");
-        double base, altura, result;
+        System.out.println("insira a base:");
         base = in.nextDouble();
+        System.out.println("insira a altura:");
         altura = in.nextDouble();
-        result = ((altura*base)/2);
-        System.out.println("o resultado sera igual a:" + result );
+        area = (base*altura) / 2;
 
     }
 }
